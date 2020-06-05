@@ -1,0 +1,9 @@
+{
+	"command": "something text",
+	"fakeError": "not result",
+	"filterUsers": [ 
+		"your id",
+		"id your friend" 
+	],
+	"message": "Ha-ha!"
+}

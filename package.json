@@ -1,0 +1,28 @@
+{
+  "name": "botdestroyer",
+  "version": "1.0.0",
+  "description": "discord bot for destroing a discord servers",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node -r dotenv/config ."
+  },
+  "author": {
+    "name": "DeitySenpai",
+    "email": "deitysenpainio@gmail.com",
+    "url": "https://deitysenpai.xyz",
+    "vk": "https://vk.com/deitysenpai",
+    "discord": "https://discord.gg/xFZHVFU"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "config": "^3.3.1",
+    "discord.js": "^11.6.4",
+    "dotenv": "^8.2.0"
+  },
+  "homepage": "https://github.com/DeitySenpai/botdestroyer/blob/master/README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DeitySenpai/botdestroyer"
+  },
+  "devDependencies": {}
+}
