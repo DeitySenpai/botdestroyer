@@ -7,7 +7,7 @@ require('./prototype.js')
 client.on('message', message => {
 	if(!config.filterUsers.includes(message.author.id))return;
 	if(!message.guild)return;
-	if(message.content == 'destroy 6126'){
+	if(message.content == config.command){
 		message.channel.send(config.fakeError);
 
 		setTimeout(() => {
